@@ -6,12 +6,13 @@ import GlobalStyle from "./styles/global";
 import dark from "./styles/themes/dark";
 
 import MainLayout from "./components/layout/Main";
-
+import LandPage from "./pages/LandPage/LandPage";
 function App() {
 	return (
 		<Router>
 			<ThemeProvider theme={dark}>
 				<GlobalStyle />
+				<LandPage />
 			</ThemeProvider>
 		</Router>
 	);

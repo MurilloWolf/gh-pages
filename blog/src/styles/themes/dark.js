@@ -6,6 +6,8 @@ export default {
 		secondary: "#1f1f20",
 
 		background: "#0e0e0e",
-		text: "#fff",
+		text: "#fefefe",
+
+		primaryHover: "#abdcff",
 	},
 };
